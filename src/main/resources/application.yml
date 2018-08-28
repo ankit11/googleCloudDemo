@@ -7,10 +7,10 @@ spring:
     max-active: 15
     max-idle: 10
     max-wait: 8000
-    password: root
+    password: admin
     testOnBorrow: true
     testWhileIdle: true
-    url: "jdbc:mysql://google/MyService?cloudSqlInstance=mysql-gcp:us-central1:gcp-cloud&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=&useSSL=false"
+    url: "jdbc:mysql://google/MyService?cloudSqlInstance=mysql-gcp:us-central1:gcp-cloud&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=admin&useSSL=false"
     userName: root
     validationQuery: "SELECT 1"
 management:
