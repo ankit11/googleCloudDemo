@@ -4,8 +4,8 @@
 
 gcloud config list
 
-gcloud config set project <project-id>
+gcloud config set project [project-id]
 
 <b>sql URL for Local </b>
 
-"jdbc:mysql://<sql-ip-adddress>/<DATABASE>?useSSL=false"
+"jdbc:mysql://[sql-ip-adddress]/[DATABASE]?useSSL=false"
